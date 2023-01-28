@@ -4,7 +4,7 @@ import requests
 from io import BytesIO
 
 
-here = input().split()
+here = sys.argv[1:]
 
 
 def apt(coords):
